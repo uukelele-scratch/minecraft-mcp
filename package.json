@@ -2,7 +2,10 @@
   "name": "minecraft-mcp",
   "version": "1.0.0",
   "description": "Using Mineflayer to create an MCP server to Minecraft.",
-  "main": "main.js",
+  "type": "module",
+  "bin":{
+    "minecraft": "./src/index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -21,5 +24,10 @@
   "bugs": {
     "url": "https://github.com/uukelele-scratch/minecraft-mcp/issues"
   },
-  "homepage": "https://github.com/uukelele-scratch/minecraft-mcp#readme"
+  "homepage": "https://github.com/uukelele-scratch/minecraft-mcp#readme",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.8.0",
+    "mineflayer": "^4.27.0",
+    "zod": "^3.24.2"
+  }
 }
