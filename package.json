@@ -1,0 +1,25 @@
+{
+  "name": "minecraft-mcp",
+  "version": "1.0.0",
+  "description": "Using Mineflayer to create an MCP server to Minecraft.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uukelele-scratch/minecraft-mcp.git"
+  },
+  "keywords": [
+    "minecraft",
+    "mcp",
+    "llm",
+    "mineflayer"
+  ],
+  "author": "uukelele-scratch aeromechanic000",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/uukelele-scratch/minecraft-mcp/issues"
+  },
+  "homepage": "https://github.com/uukelele-scratch/minecraft-mcp#readme"
+}
